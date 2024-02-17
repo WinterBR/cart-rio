@@ -130,7 +130,7 @@ int deletar() //função deletar
 
 int main()
 {
-	
+	int ctz=0;
 	int opcao=0;    //variaveis
 	int x=1;
 	
@@ -144,6 +144,7 @@ int main()
 	    printf("\t1-Registar nomes\n"); //op1
 	    printf("\t2-Consultar nomes\n"); //op2
 	    printf("\t3-Excluir nomes\n\n"); //op3
+	    printf("\t4-Sair do sistema\n\n\n");
 	
 	    printf("opção: ");
 	
@@ -165,6 +166,11 @@ int main()
 		    	deletar(); //chamar a função deletar
 		    	break;
 		    	
+		    case 4:
+		    	printf("\tObrigado por ultilizar o sistema\n");
+		    	return 0;
+		   		break;
+
 		    default: // caso não seja nenhum dos 3
 		    	printf("Essa opção não está disponivel\n");
 		    	system("pause");
