@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    padding: 30px 0;
+    background-image: url(https://i.ytimg.com/vi/Udb-Mw0sP08/maxresdefault.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+header h1 {
+    font-size: 100px;
+    color: rgb(149, 255, 223);
+    margin-right: 300px;
+    padding: 16px;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header nav li a,
+header nav li button {
+    font-size: larger;
+    display: inline;
+    margin-left: 16px;
+    margin-right: 10px;
+    color: rgb(0, 255, 195);
+}
+header nav li button {
+    background-color: rgb(4, 108, 68);
+    border: 2px solid rgb(0, 255, 195);
+    border-radius: 5px;
+}
+
+header nav li button:hover {
+    background-color: rgb(62, 195, 144);
+}
+
+
+header .ini {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0;
+}
+
+body .sobre img {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+body .sobre {
+    background-image: url(https://images6.alphacoders.com/870/870065.jpg);
+    background-size: 2000px; 
+    background-position: center;
+    background-position-y: top;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    color: rgb(145, 37, 27);
+
+}
+
+.plataformas img,
+.plataformas li {
+    height: 20px;
+    display: inline;
+}
+
+body .contato {
+    background-image: url(https://images6.alphacoders.com/870/870065.jpg);
+    background-size: 2000px; 
+    background-position: center;
+    background-position-y: 587px;
+    display: list-item;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    color: rgb(242, 83, 55);
+}
+
+.contmet {
+    display: flex;
+    gap: 50px;
+}
+
+.contmet form input,
+.contmet form textarea,
+.contmet form button {
+    display: block;
+    width: 300px;
+    padding: 10px;
+}
+
+.contmet form button {
+    background-color: rgb(252, 195, 186);
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contmet form button:hover {
+    background-color: rgb(187, 12, 12);
+}
+
+form textarea {
+    resize: none;
+}
+
+
+
+
+
+
+
